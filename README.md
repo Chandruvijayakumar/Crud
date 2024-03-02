@@ -83,7 +83,7 @@ The application interacts with a mock API hosted on [MockAPI](https://65d97bd4c9
 
 ## Contributions 🤝
 
-Contributions are wholeheartedly welcomed! If you have ideas, improvements, or bug fixes, feel free to [open an issue](https://github.com/Chandruvijayakumar/Shopping-Cart.git/issues) or submit a pull request.
+Contributions are wholeheartedly welcomed! If you have ideas, improvements, or bug fixes, feel free to [open an issue](https://github.com/Chandruvijayakumar/Crud#feedback) or submit a pull request.
 
 ## Netlify Deployment 🌐
 
