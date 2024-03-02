@@ -21,7 +21,7 @@ This is a simple React.js application demonstrating CRUD (Create, Read, Update, 
 1. **Clone the repository:**
 
     ```bash
-   https://github.com/Chandruvijayakumar/Shopping-Cart.git
+   "https://github.com/Chandruvijayakumar/Crud"
     ```
 
 2. **Navigate to the project directory:**
