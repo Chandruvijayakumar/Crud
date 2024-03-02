@@ -3,7 +3,9 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Add = () => {
+  // Use the useNavigate hook from React Router for easy navigation
   const navigate = useNavigate();
+  // State to store form data
   const [updateData, setUpdateData] = useState({
     name: "",
     jobrole: "",

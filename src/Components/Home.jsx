@@ -19,13 +19,16 @@ function Home({ setId }) {
         console.log(error);
       });
   };
+  // Call the getApiData function once when the component mounts
   useEffect(() => {
     getApiData();
   }, []);
+  // Function to navigate to the update page with the selected profile's ID
   const updateBtn = (id) => {
     setId(id);
     navigate(`/update/${id}`);
   };
+  // Function to delete a profile and update the state
   const deleteBtn = async (id) => {
     await axios
       .delete(`https://65d97bd4c96fbb24c1bd109e.mockapi.io/CRUD/${id}`)
@@ -35,6 +38,8 @@ function Home({ setId }) {
       });
     navigate("/user");
   };
+  // JSX rendering of the component
+
   return (
     <>
       <div className="row   d-flex  justify-content-center ">

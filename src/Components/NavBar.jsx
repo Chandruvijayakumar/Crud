@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
+// Functional component for the navigation bar
 const NavBar = () => {
   return (
+    // Top navigation bar with a sticky background
     <div className="bgNav sticky-top">
       <Navbar expand="md">
         <Container>
