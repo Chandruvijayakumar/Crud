@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merienda:wght@575&family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merienda:wght@575&family=Protest+Revolution&display=swap');
+
+.bgNav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-shadow: #a2aeb9 2px 0.3px 0.3px;
+}
+@media (max-width: 767px) {
+    .bgNav {
+        background-color:rgb(105,
+            105,
+            108)
+    }
+}
+.navbar-toggler {
+    transition:rgb(8, 0, 0) 0.3s ease-in-out;
+}
+
+.navbar-toggler:hover {
+    background-color:rgb(58, 172, 160);
+    transform: scale(1.1);
+}
+@media (min-width: 767px) {
+    .bgNav {
+        background-color: rgb(105, 105, 108)
+    }
+}
+.family{
+    font-family: Lora;
+    font-weight: bolder;
+}
+.family:hover{
+    color: rgb(22, 5, 5);
+    text-shadow: 2px 2px 4px rgba(223, 19, 19, 0.5);
+}
+a{
+    text-decoration: none;
+    color: rgb(17, 9, 9);
+    font-weight: bolder;
+    font-family:Merienda ;
+}
+a:hover{
+    color: rgb(166, 12, 12);
+    text-shadow:rgba(20px,30px, .19) ;
+
+}
+.bgNav:hover{
+  color: rgb(141, 10, 10);
+}
+.form{
+    width: 30%;
+    height: auto;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 10px rgba(0,0,0,.5), 0 0 10px rgba(0,0,0,.19);
+}
+.form:hover{
+    box-shadow: inset 0 0 10px rgba(0,0,0,.7), 0 0 10px rgba(0,0,0,.8);
+}
+@media screen and (min-width: 320px) {
+    body {
+        text-align: center;
+    }
+
+    .form {
+        width: 80%;
+       align-items: center !important;
+       display: flex;
+       justify-content: center;
+       margin: 20% 10%;
+       margin-bottom: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+
+    .form {
+        width: 80%;
+        align-items: center !important;
+        display: flex;
+        justify-content: center;
+        margin: 20% 10%;
+        margin-bottom: auto;
+    }
+}
+.firstPhase{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.firstPhase:hover{
+
+    transform: scale(1.1);
+}
+.avatar{
+    border-radius: 2em;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+}
+.avatar:hover{
+    border-radius: 20em;
+    transform: scale(1.1);
+    filter: brightness(70%);
+    background-color:rgb(159, 255, 14);
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.999);
+}
+
+
+
+
+
+
+
+
+
+/* Add this CSS to your stylesheet or in a style tag within your component */
+h1 {
+    text-align: center;
+    color: #1f4798;
+    font-family: Merienda;
+    margin-top: 20px;
+}
+
+.addForm {
+    font-family:Merienda ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 2px solid #8f1515;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+    /* Initial scale */
+    transition: transform 0.3s ease-in-out;
+    /* Smooth scale transition */
+}
+.addForm:hover {
+    transform: scale(1.05);
+    /* Scale up on hover for a subtle effect */
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #4a4b4d;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #8f1515;
+    border-radius: 6px;
+    font-size: 1em;
+    color: #4a4b4d;
+    transition: border-color 0.3s ease-in-out;
+    /* Smooth border color transition */
+}
+
+input:focus {
+    border-color: #0a1724;
+    box-shadow:10 20 10px rgba(151, 14, 14, 0.1);
+    /* Change border color on focus for emphasis */
+}
+
+button {
+    background-color: #4a4b4d;
+    color: #bb2e2e;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    /* Smooth background color transition */
+}
+
+button:hover {
+    background-color: #0a1724;
+
+}
+
+
+
+
+
+
+
+
+
+/* Add this CSS to your stylesheet or in a style tag within your component */
+
+/* Add this CSS to your stylesheet or in a style tag within your component */
+
+.user1 {
+    margin-top: 20px;
+}
+
+.user2 {
+    background-color: #28a745;
+    /* Green color */
+    border-color: #218838;
+    /* Darker green for border */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.user2:hover {
+    background-color: #218838;
+    /* Darker green on hover */
+    border-color: #1e7e34;
+    /* Slightly darker border on hover */
+}
+
+.user3 {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10 20 10px rgba(151, 14, 14, 0.1);
+}
+
+.user3 thead {
+    background-color: #007bff;
+    /* Primary blue color */
+    color: #b81e1e;
+    font-weight: bold;
+    font-family: Merienda;
+}
+
+.user3 th,
+.user3 td {
+    text-align: center;
+    vertical-align: middle !important;
+    font-family: Merienda;
+    font-weight:  normal;
+}
+
+.user3 img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+
+.user3 th,
+.user3 td,
+.user3 button {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.user3 button:hover {
+    background-color: #0056b3;
+    /* Slightly darker blue on hover */
+    color: white;
+        transform: scale(1.05);
+            /* Scale up on hover */
+}
+
+.user6 {
+    font-size: 1.5rem;
+}
+
+.user5 button {
+    cursor: pointer;
+}
+
+.user7 {
+    cursor: pointer;
+}
+
+.user4 {
+    background-color: #f8f9fa;
+    /* Light gray background */
+}
+
+
+
+
+
+
+
+
+
+
+/* Add this CSS to your stylesheet or in a style tag within your component */
+
+.form1 {
+    max-width: 400px;
+    font-family: Merienda;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d52c2c;
+    margin-top: 5%;
+    transition: border-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.form1:hover {
+    border-color: #007bff;
+    transform: scale(1.02);
+    font-family: Merienda;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: Merienda;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #8f1515;
+    border-radius: 4px;
+    font-family: Merienda;
+}
+
+form button {
+    background-color: #4a4b4d;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-family: Merienda;
+}
+form button:hover {
+    background-color: #0a1724;
+    font-family: Merienda;
+}
