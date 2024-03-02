@@ -1,4 +1,4 @@
-<img align='right' alt='coding' width='950' height='300'  src='https://www.atatus.com/glossary/content/images/size/w960/2021/07/CRUD.jpeg'>
+<img align='right' alt='coding' width='1000' height='300'  src='https://www.atatus.com/glossary/content/images/size/w960/2021/07/CRUD.jpeg'>
 
 # React CRUD Operations App 🚀
 
