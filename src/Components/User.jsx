@@ -19,7 +19,7 @@ const User = ({ setId }) => {
   // Delete a user by making an API call and updating the state
   const goToDeletePage = async (id) => {
     await axios
-      .delete(`https://65d97bd4c96fbb24c1bd109e.mockapi.io/CRUD/${id}`)
+      .delete(`https://65eaba9dc9bf92ae3d3c0e71.mockapi.io/Library/${id}`)
       .then((res) => setUserDelete(res.data))
       .catch((err) => {
         console.log(err);
@@ -34,7 +34,7 @@ const User = ({ setId }) => {
   // Fetch user data from the API
   const getApiData = async () => {
     await axios
-      .get("https://65d97bd4c96fbb24c1bd109e.mockapi.io/CRUD")
+      .get("https://65eaba9dc9bf92ae3d3c0e71.mockapi.io/Library")
       .then((response) => {
         // console.log(response.data);
         setProfiles(response.data);

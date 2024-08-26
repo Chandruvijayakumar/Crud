@@ -22,7 +22,7 @@ const Update = ({ id }) => {
   /* Function to fetch user data based on the provided ID */
   const fetchData = async () => {
     await axios
-      .get(`https://65d97bd4c96fbb24c1bd109e.mockapi.io/CRUD/${id}`)
+      .get(`https://65eaba9dc9bf92ae3d3c0e71.mockapi.io/Library/${id}`)
       .then((res) => setUpdateData(res.data))
       .catch((err) => console.log(err));
   };
@@ -39,7 +39,10 @@ const Update = ({ id }) => {
     event.preventDefault();
 
     await axios
-      .put(`https://65d97bd4c96fbb24c1bd109e.mockapi.io/CRUD/${id}`, updateData)
+      .put(
+        `https://65eaba9dc9bf92ae3d3c0e71.mockapi.io/Library/${id}`,
+        updateData
+      )
       .catch((err) => console.log(err));
     navigate("/user");
   };

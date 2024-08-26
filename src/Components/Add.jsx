@@ -26,7 +26,7 @@ const Add = () => {
     event.preventDefault();
     // Make a POST request to the mock API with the form data
     await axios
-      .post(`https://65d97bd4c96fbb24c1bd109e.mockapi.io/CRUD/`, updateData)
+      .post(`https://65eaba9dc9bf92ae3d3c0e71.mockapi.io/Library`, updateData)
       .catch((err) => console.log(err));
     // Navigate to the "/user" route after successful submission
     navigate("/user");
