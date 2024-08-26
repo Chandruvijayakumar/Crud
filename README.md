@@ -1,4 +1,4 @@
-<img align='right' alt='coding' width='950' height='300'  src='https://www.atatus.com/glossary/content/images/size/w960/2021/07/CRUD.jpeg'>
+<img align='right' alt='coding' width='1000' height='300'  src='https://www.atatus.com/glossary/content/images/size/w960/2021/07/CRUD.jpeg'>
 
 # React CRUD Operations App 🚀
 
@@ -83,7 +83,7 @@ The application interacts with a mock API hosted on [MockAPI](https://65d97bd4c9
 
 ## Contributions 🤝
 
-Contributions are wholeheartedly welcomed! If you have ideas, improvements, or bug fixes, feel free to [open an issue](https://github.com/Chandruvijayakumar/Shopping-Cart.git/issues) or submit a pull request.
+Contributions are wholeheartedly welcomed! If you have ideas, improvements, or bug fixes, feel free to [open an issue](https://github.com/Chandruvijayakumar/Crud#feedback) or submit a pull request.
 
 ## Netlify Deployment 🌐
 
